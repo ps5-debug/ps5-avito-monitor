@@ -5,7 +5,10 @@ from bs4 import BeautifulSoup
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
-SEARCH_URL = os.environ.get("SEARCH_URL", "https://m.avito.ru/moskva/igry_pristavki_i_programmy/igry_pristavki_i_programmy/igrovye_pristavki_i_aksessuary/igrovye_pristavki-ASgBAgICAkSSAsoJ9M0UmsqPAw?context=H4sIAAAAAAAA_wF_AID_YTo0OntzOjg6ImZyb21QYWdlIjtzOjU6InNzZmF2IjtzOjk6ImZyb21fcGFnZSI7czo1OiJzc2ZhdiI7czo3OiJyZWZlcmVyIjtzOjI6InNwIjtzOjE5OiJzYXZlZFNlYXJjaEZpbHRlcklkIjtzOjk6IjI0MTY2NzczMyI7fUPgynN_AAAA&f=ASgBAgICA0SSAsoJ7LwNgNI09M0UmsqPAw&geoCoords=55.755814%2C37.617635&presentationType=serp&q=playstation%205&radius=0&s=104")
+SEARCH_URL = os.environ.get(
+    "SEARCH_URL",
+    "https://www.avito.ru/moskva/igry_pristavki_i_programmy/igry_pristavki_i_programmy/igrovye_pristavki/sony/sony_playstation_5-ASgBAgICBESSAsoJsvoN4o6TAbb6DY6OkwH0zRSayo8D"
+)
 STATE_PATH = "seen.json"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; PS5Monitor/1.0)",
